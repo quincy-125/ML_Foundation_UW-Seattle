@@ -8,3 +8,10 @@
     pip install turicreate 
 
 
+##### Set up Conda in zsh on MacOSX System
+    open ~/.bash_profile
+Copy everything in the file, then 
+
+    open ~/.zshrc
+Paste everything in there, then save it and close the file.
+
