@@ -1,0 +1,96 @@
+---
+title: "Machine Learning Foundation Specialization"
+institution: "University of Washington Seattle"
+subtitle: "Week#2 Quiz#1 on Linear Regression Model"
+author: 
+- name: "Quincy Gu"
+  affiliation: "Mayo Clinic College of Medicine and Science"
+  email: Gu.Qiangqiang@mayo.edu
+date: "3/21/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(radix)
+```
+
+<br/>
+**Problem 1**
+
+Which figure represents an overfitted model?
+
+[**Figure 1**](Insert_Images/1A.png)  [**Figure 2**](Insert_Images/1B.png)  [**Figure 3**](Insert_Images/1C.png)
+
+**Answer:** Figure 1
+
+<br/>
+**Problem 2**
+
+**True or false**: The model that best minimized training error is the one that will perform best for the task of prediction on new data.
+
+**Answer:** False
+
+<br/>
+**Problem 3**
+
+The following table illustrates the results of evaluating 4 models with different parameter choices on some data set. Which of the following models fits this data the best?
+
+![](Insert_Images/3.png)
+
+**Answer:** Model 3
+
+<br/>
+**Problem 4**
+
+Assume we fit the following quadratic function: f(x) = w0+w1*x+w2*(x^2) to the dataset shown (blue circles). The fitted function is shown by the green curve in the picture below. Out of the 3 parameters of the fitted function (w0, w1, w2), which ones are estimated to be 0? (Note: you must select all parameters estimated as 0 to get the question correct.)
+
+![](Insert_Images/4.png)
+
+**Answer:** w2
+
+<br/>
+**Problem 5**
+
+Assume we fit the following quadratic function: f(x) = w0+w1*x+w2*(x^2) to the dataset shown (blue circles). The fitted function is shown by the green curve in the picture below. Out of the 3 parameters of the fitted function (w0, w1, w2), which ones are estimated to be 0? (Note: you must select all parameters estimated as 0 to get the question correct.)
+
+![](Insert_Images/5.png)
+
+**Answer:** w0 and w2
+
+<br/>
+**Problem 6**
+
+Assume we fit the following quadratic function: f(x) = w0+w1*x+w2*(x^2) to the dataset shown (blue circles). The fitted function is shown by the green curve in the picture below. Out of the 3 parameters of the fitted function (w0, w1, w2), which ones are estimated to be 0? (Note: you must select all parameters estimated as 0 to get the question correct.)
+
+![](Insert_Images/6.png)
+
+**Answer:** none of the above
+
+<br/>
+**Problem 7**
+
+Assume we fit the following quadratic function: f(x) = w0+w1*x+w2*(x^2) to the dataset shown (blue circles). The fitted function is shown by the green curve in the picture below. Out of the 3 parameters of the fitted function (w0, w1, w2), which ones are estimated to be 0? (Note: you must select all parameters estimated as 0 to get the question correct.)
+
+![](Insert_Images/7.png)
+
+**Answer:** w0
+
+<br/>
+**Problem 8**
+
+Which of the following plots would you not expect to see as a plot of training and test error curves?
+
+[**Figure 1**](Insert_Images/8A.png)  [**Figure 2**](Insert_Images/8B.png)  [**Figure 3**](Insert_Images/8C.png)
+
+**Answer:** Figure 3
+
+<br/>
+**Problem 9**
+
+**True or false**: One always prefers to use a model with more features since it better captures the true underlying process.
+
+**Answer:** False
+
+<br/>
+I, **QUINCY GU**, understand that submitting work that isn’t my own may result in permanent failure of this course or deactivation of my Coursera account.
